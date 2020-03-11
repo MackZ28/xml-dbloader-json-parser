@@ -1,0 +1,15 @@
+C:\Users\Администратор\source\repos\TestApp\TestApp\bin\Debug\TestApp.exe.config
+C:\Users\Администратор\source\repos\TestApp\TestApp\bin\Debug\TestApp.exe
+C:\Users\Администратор\source\repos\TestApp\TestApp\bin\Debug\TestApp.pdb
+C:\Users\Администратор\source\repos\TestApp\TestApp\obj\Debug\TestApp.Form1.resources
+C:\Users\Администратор\source\repos\TestApp\TestApp\obj\Debug\TestApp.Properties.Resources.resources
+C:\Users\Администратор\source\repos\TestApp\TestApp\obj\Debug\TestApp.csproj.GenerateResource.cache
+C:\Users\Администратор\source\repos\TestApp\TestApp\obj\Debug\TestApp.csproj.CoreCompileInputs.cache
+C:\Users\Администратор\source\repos\TestApp\TestApp\obj\Debug\TestApp.exe
+C:\Users\Администратор\source\repos\TestApp\TestApp\obj\Debug\TestApp.pdb
+C:\Users\Администратор\source\repos\TestApp\TestApp\bin\Debug\ServiceDataBase.mdf
+C:\Users\Администратор\source\repos\TestApp\TestApp\bin\Debug\ServiceDataBase_log.ldf
+C:\Users\Администратор\source\repos\TestApp\TestApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Администратор\source\repos\TestApp\TestApp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Администратор\source\repos\TestApp\TestApp\obj\Debug\TestApp.csproj.CopyComplete
+C:\Users\Администратор\source\repos\TestApp\TestApp\obj\Debug\TestApp.csprojAssemblyReference.cache
