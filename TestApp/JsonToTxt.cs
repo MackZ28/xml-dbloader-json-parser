@@ -13,9 +13,11 @@ namespace TestApp
 
         public void JsonParse()
         {
+            string projPath = Directory.GetParent(Environment.CurrentDirectory).Parent.FullName;
+
             try
             {
-                using (StreamReader reader = new StreamReader("C:/Users/Администратор/source/repos/TestApp/TestApp/Users.json"))
+                using (StreamReader reader = new StreamReader(projPath + @"\Users.json"))
                 {
                     string jsonFromFile = reader.ReadToEnd();
 
@@ -27,13 +29,13 @@ namespace TestApp
                     {
                         //Console.WriteLine("{0} {1} {2} {3} {4}", item.FullName, item.Country, item.CreatedAt, item.Id, item.Email);
 
-                        using (StreamWriter file = new StreamWriter(@"C:\Users\Администратор\source\repos\TestApp\TestApp\UserConverted.txt", true))
+                        using (StreamWriter file = new StreamWriter(projPath + @"\UserConverted.txt", true))
                         {
                             file.WriteLine("Имя: " + item.FullName + "; Страна: " + item.Country + "; Время создания: " + item.CreatedAt + "; ID: " + item.Id + "; Email: " + item.Email);
                         }
                     }
 
-                    using (StreamWriter file = new StreamWriter(@"C:\Users\Администратор\source\repos\TestApp\TestApp\UserConverted.txt", true))
+                    using (StreamWriter file = new StreamWriter(projPath + @"\UserConverted.txt", true))
                     {
                         file.WriteLine("$" + items.Count + "|");
                     }

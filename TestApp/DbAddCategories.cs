@@ -12,6 +12,7 @@ namespace TestApp
     {
         public void AddData(string id, string name, string parent, string image)
         {
+            
         string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Администратор\source\repos\TestApp\TestApp\ServiceDataBase.mdf;Integrated Security=True";
             
 
